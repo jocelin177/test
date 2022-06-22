@@ -1,0 +1,11 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/jocelin/Desktop/code'
+arm-linux-gnueabihf-gcc -Wall -nostdlib -c -O2  -I a  -I b  -I project  -o obj/start.o project/start.S
+arm-linux-gnueabihf-gcc -Wall -nostdlib -c -O2  -I a  -I b  -I project  -o obj/a.o a/a.c
+arm-linux-gnueabihf-gcc -Wall -nostdlib -c -O2  -I a  -I b  -I project  -o obj/b.o b/b.c
+arm-linux-gnueabihf-gcc -Wall -nostdlib -c -O2  -I a  -I b  -I project  -o obj/main.o project/main.c
+arm-linux-gnueabihf-ld -LDS.lds -o test.elf obj/start.o obj/a.o obj/b.o obj/main.o
+arm-linux-gnueabihf-objcopy -O binary -S test.elf test.bin
+arm-linux-gnueabihf-objdump -D -m arm test.elf > test.dis
+make: Leaving directory '/home/jocelin/Desktop/code'
+ 

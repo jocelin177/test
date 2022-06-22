@@ -1,0 +1,48 @@
+
+test.elf:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+00010078 <main>:
+   10078:	2000      	movs	r0, #0
+   1007a:	4770      	bx	lr
+
+0001007c <_start>:
+   1007c:	eaffffff 	b	10080 <__main_from_arm>
+
+00010080 <__main_from_arm>:
+   10080:	e51ff004 	ldr	pc, [pc, #-4]	; 10084 <__main_from_arm+0x4>
+   10084:	00010079 	andeq	r0, r1, r9, ror r0
+
+Disassembly of section .comment:
+
+00000000 <.comment>:
+   0:	3a434347 	bcc	10d0d24 <__bss_end__+0x10b0c9c>
+   4:	62552820 	subsvs	r2, r5, #32, 16	; 0x200000
+   8:	75746e75 	ldrbvc	r6, [r4, #-3701]!	; 0xfffff18b
+   c:	2e313120 	rsfcssp	f3, f1, f0
+  10:	2d302e32 	ldccs	14, cr2, [r0, #-200]!	; 0xffffff38
+  14:	62753731 	rsbsvs	r3, r5, #12845056	; 0xc40000
+  18:	75746e75 	ldrbvc	r6, [r4, #-3701]!	; 0xfffff18b
+  1c:	31202931 			; <UNDEFINED> instruction: 0x31202931
+  20:	2e322e31 	mrccs	14, 1, r2, cr2, cr1, {1}
+  24:	Address 0x0000000000000024 is out of bounds.
+
+
+Disassembly of section .ARM.attributes:
+
+00000000 <.ARM.attributes>:
+   0:	00002e41 	andeq	r2, r0, r1, asr #28
+   4:	61656100 	cmnvs	r5, r0, lsl #2
+   8:	01006962 	tsteq	r0, r2, ror #18
+   c:	00000024 	andeq	r0, r0, r4, lsr #32
+  10:	412d3705 			; <UNDEFINED> instruction: 0x412d3705
+  14:	070a0600 	streq	r0, [sl, -r0, lsl #12]
+  18:	09010841 	stmdbeq	r1, {r0, r6, fp}
+  1c:	12040a02 	andne	r0, r4, #8192	; 0x2000
+  20:	15011404 	strne	r1, [r1, #-1028]	; 0xfffffbfc
+  24:	18031701 	stmdane	r3, {r0, r8, r9, sl, ip}
+  28:	1c021a01 			; <UNDEFINED> instruction: 0x1c021a01
+  2c:	Address 0x000000000000002c is out of bounds.
+

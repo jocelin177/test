@@ -1,0 +1,465 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Jun 16 08:04:11 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+SSH_AGENT_LAUNCHER = gnome-keyring
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-4e7f44ab-8677-4274-a33d-a1f3bded81ed.sock
+# makefile (from 'Makefile', line 20)
+CFILES :=  a/a.c  b/b.c  project/main.c
+# makefile (from 'Makefile', line 30)
+VPATH := a b project 
+# environment
+LC_NAME = zh_CN.UTF-8
+# environment
+LC_NUMERIC = zh_CN.UTF-8
+# environment
+VSCODE_CWD = /home/jocelin
+# makefile (from 'Makefile', line 13)
+SRCDIRS := a b project 
+# environment
+LC_ADDRESS = zh_CN.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/98/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# makefile (from 'Makefile', line 25)
+SOBJS :=  obj/start.o
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/jocelin/Desktop/code
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/jocelin/.config/Code/CachedData/4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.W7A1N1
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile (from 'Makefile', line 19)
+SFILES :=      project/start.S
+# makefile
+CURDIR := /home/jocelin/Desktop/code
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+WAYLAND_DISPLAY = wayland-0
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# environment
+SNAP_REEXEC = 
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 2070
+# environment
+XDG_SESSION_TYPE = wayland
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+SESSION_MANAGER = local/ubuntu:@/tmp/.ICE-unix/1208,unix/ubuntu:/tmp/.ICE-unix/1208
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'Makefile', line 17)
+INCLUDE :=  -I a  -I b  -I project 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'Makefile', line 28)
+OBJS :=  obj/start.o obj/a.o  obj/b.o  obj/main.o
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# environment
+IM_CONFIG_CHECK_ENV = 1
+# makefile (from 'Makefile', line 7)
+OBJDUMP := arm-linux-gnueabihf-objdump
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+SNAP_COOKIE = Idmr4LP38JUF9D2ROALOqeeHpNUZxbIsoeEmO4-FfB7SykYaUagk
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+# default
+MAKEFILES := 
+# environment
+LANGUAGE = en_US:
+# makefile (from 'Makefile', line 22)
+SFILENDIR := start.S
+# environment
+LC_MONETARY = zh_CN.UTF-8
+# automatic
+^F = $(notdir $^)
+# environment
+SNAP_USER_COMMON = /home/jocelin/snap/code/common
+# environment
+LC_TIME = zh_CN.UTF-8
+# environment
+SNAP = /snap/code/98
+# environment
+INVOCATION_ID = 10dcb2870e4440d99786f7f491a28f74
+# environment
+SNAP_REVISION = 98
+# environment
+SNAP_REAL_HOME = /home/jocelin
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = jocelin
+# environment
+GNOME_SETUP_DISPLAY = :1
+# environment
+LC_TELEPHONE = zh_CN.UTF-8
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# automatic
+?F = $(notdir $?)
+# makefile (from 'Makefile', line 1)
+CROSS_COMPILE = arm-linux-gnueabihf-
+# makefile (from 'Makefile', line 9)
+INCLUDEDIRS := a b project 
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = ubuntu
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = jocelin
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+SNAP_ARCH = amd64
+# makefile (from 'Makefile', line 23)
+CFILENDIR := a.c b.c main.c
+# makefile
+.DEFAULT_GOAL := test.bin
+# environment
+SYSTEMD_EXEC_PID = 1230
+# environment
+DISPLAY = :0
+# environment
+USER = jocelin
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# environment
+DISABLE_WAYLAND = 1
+# environment
+SNAP_DATA = /var/snap/code/98
+# environment
+SNAP_CONTEXT = Idmr4LP38JUF9D2ROALOqeeHpNUZxbIsoeEmO4-FfB7SykYaUagk
+# environment
+MANAGERPID = 1075
+# environment
+LC_MEASUREMENT = zh_CN.UTF-8
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2007
+# environment
+_ = /snap/code/98/usr/share/code/code
+# environment
+LC_PAPER = zh_CN.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/jocelin/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+JOURNAL_STREAM = 8:38380
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# makefile (from 'Makefile', line 26)
+COBJS :=  obj/a.o  obj/b.o  obj/main.o
+# environment
+HOME = /home/jocelin
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-33a05fac-1.68.0-main.sock
+# environment
+SNAP_NAME = code
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/98/usr/share/glib-2.0/schemas
+# environment
+IM_CONFIG_PHASE = 1
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# environment
+SNAP_VERSION = 4af164ea
+# default
+SUFFIXES := 
+ 
+# makefile (from 'Makefile', line 2)
+TARGET = test
+# makefile (from 'Makefile', line 5)
+LD := arm-linux-gnueabihf-ld
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_COMMON = /var/snap/code/common
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 4)
+CC := arm-linux-gnueabihf-gcc
+# makefile (from 'Makefile', line 6)
+OBJCOPY := arm-linux-gnueabihf-objcopy
+# environment
+SNAP_USER_DATA = /home/jocelin/snap/code/98
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = ubuntu
+# environment
+LC_IDENTIFICATION = zh_CN.UTF-8
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# variable set hash-table stats:
+# Load=149/1024=15%, Rehash=0, Collisions=10/199=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# project (device 2051, inode 1322569): 5 files, no impossibilities.
+# . (device 2051, inode 1180043): 13 files, no impossibilities.
+# a (device 2051, inode 1322543): 4 files, no impossibilities.
+# b (device 2051, inode 1322550): 4 files, no impossibilities.
+
+# 26 files, no impossibilities in 4 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+obj/main.o: main.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'main'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 43):
+	$(CC) -Wall -nostdlib -c -O2 $(INCLUDE) -o $@ $<
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-14 16:53:11.633167061
+#  File has been updated.
+#  Successfully updated.
+
+print:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 49):
+	@echo INCLUDE = $(INCLUDE)
+	@echo SFILES = $(SFILES)
+	@echo CFILES = $(CFILES)
+	@echo SFILENDIR = $(SFILENDIR)
+	@echo CFILENDIR = $(CFILENDIR)
+	@echo SOBJS = $(SOBJS)
+	@echo COBJS = $(COBJS)
+	@echo OBJS = $(OBJS)
+
+test.bin: obj/start.o obj/a.o obj/b.o obj/main.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 35):
+	$(LD) -LDS.lds -o $(TARGET).elf $^
+	$(OBJCOPY) -O binary -S $(TARGET).elf $@
+	$(OBJDUMP) -D -m arm $(TARGET).elf > $(TARGET).dis
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 46):
+	rm -rf $(TARGET).elf $(TARGET).bin $(TARGET).dis $(OBJS)
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+obj/start.o: start.S
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'start'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 40):
+	$(CC) -Wall -nostdlib -c -O2 $(INCLUDE) -o $@ $<
+
+# Not a target:
+main.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/a.o: a.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'a'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 43):
+	$(CC) -Wall -nostdlib -c -O2 $(INCLUDE) -o $@ $<
+
+# Not a target:
+a.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/b.o: b.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'b'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 43):
+	$(CC) -Wall -nostdlib -c -O2 $(INCLUDE) -o $@ $<
+
+# Not a target:
+start.S:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+b.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=16/1024=2%, Rehash=0, Collisions=0/44=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# General ('VPATH' variable) search path:
+# a:b:project
+
+# strcache buffers: 1 (0) / strings = 38 / storage = 260 B / avg = 6 B
+# current buf: size = 8162 B / used = 260 B / count = 38 / avg = 6 B
+
+# strcache performance: lookups = 75 / hit rate = 49%
+# hash-table stats:
+# Load=38/8192=0%, Rehash=0, Collisions=0/75=0%
+# Finished Make data base on Thu Jun 16 08:04:11 2022
+
+ 
